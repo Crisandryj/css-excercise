@@ -69,7 +69,12 @@
   background-color: #bccbde;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap:15px:
 }
+
+.article .card{
+  height: 200px;
+};
 
 .article p {
   font-size: 18px;
