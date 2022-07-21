@@ -20,7 +20,8 @@
 .header {
   background-color: #393f4d;
   display: grid;
-  grid-template-columns: 1fr 1fr
+  grid-template-columns: 1fr 1fr;
+  grid-column: span 2;
 }
 
 .menu ul,
@@ -102,9 +103,12 @@
 
 .footer {
   background-color: #393f4d;
+  display: grid;
+  grid-column: span 2;
 }
 
 .footer p {
   font-size: 13px;
   font-weight: normal;
+
 }
