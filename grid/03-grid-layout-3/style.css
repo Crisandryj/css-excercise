@@ -7,6 +7,7 @@
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 4fr;
+  grid-template-rows: 125px 50px 1fr;
   grid-gap: 4px;
 }
 
@@ -21,6 +22,7 @@
   background-color: #393f4d;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-row: span 1;
   grid-column: span 2;
 }
 
@@ -32,6 +34,8 @@
 .menu ul,
 .nav ul {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
 }
 
 .sidebar {
@@ -40,6 +44,8 @@
   grid-gap: 50px;
   align-items: center;
   grid-column: 1/2;
+  grid-row: span 2;
+
 }
 
 .sidebar .photo {
@@ -61,6 +67,7 @@
 .nav {
   background-color: #FF7755;
   grid-column: 2/3;
+  grid-row: 2/3;
 }
 
 .nav ul li {
