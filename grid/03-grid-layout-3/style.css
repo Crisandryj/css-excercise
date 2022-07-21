@@ -39,7 +39,7 @@
   display: grid;
   grid-gap: 50px;
   align-items: center;
-  grid-column: 2/3;
+  grid-column: 1/2;
 }
 
 .sidebar .photo {
@@ -72,7 +72,9 @@
   background-color: #bccbde;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-  grid-gap:15px:
+  grid-gap:15px;
+  grid-column: 2/3;
+
 }
 
 .article .card{
